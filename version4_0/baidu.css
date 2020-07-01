@@ -1,0 +1,122 @@
+		*{	
+			margin:0px;
+			padding:0px;
+			border:0px;
+			white-space:nowrap;
+		}
+		
+		.background{
+			background-color:white;
+			width:100%;
+		}
+		
+		#file{
+			display:none;
+		}
+		
+		.inputFrame{
+			border:0px solid #2196f3;
+			overflow:hidden;
+			padding: 0px 0px 0px 13px;
+			width:70%;
+			font-size:20px;
+			height:45px;
+			float:left;
+			outline:none;
+			border-radius: 10px 0 0 10px;
+			border-right: none;
+			border-bottom: none;
+		}
+		
+		#center{
+			text-align:center;
+		}
+		
+		#submitButton{
+			min-width:fit-content;
+			width:25%;
+			height:45px;
+			font-size:18px;
+			border: 0px solid #2196f3;
+			color:white;
+			background-color:#3388FF;
+			outline:none;
+			border-radius: 0 10px 10px 0;
+		}
+		
+		#submitButton:active{
+			background:linear-gradient(90deg,#0162c8,#55e7fc);
+		}
+		
+		#icon{
+			margin:0px 0px 40px 0px;
+		}
+		
+
+		.content{
+			height:45px;
+			margin: 0 auto;
+			width: 90%;
+		}
+		.wrapper{
+			position: relative;
+			margin-top: 20%;
+		}
+		
+		#wrapbg{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width:100%;
+			height:100%;
+		}
+	
+		#clearImg{
+			float:left;
+			display:none;
+			margin-left: -45px;
+			width:45px;
+			transform: scale(0.5);
+		}
+		
+		ul{
+			overflow: hidden;
+			background: #FFF;
+			border-radius: 0 0 10px 10px;
+			padding-left: 13px;
+			width:70%;
+		}
+	
+		li{
+			font-size:18px;
+			padding: 2px 0px 2px 13px;
+			margin-left:-13px;
+			background:#FFF;
+			list-style-type: none;
+			opacity:0.8;
+		}
+		
+		html{
+			height:100%;
+		}
+		
+		.body{
+			background-size:cover;
+			background-color: #52ACFF;
+			background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
+			-webkit-user-select:none;/*谷歌 /Chrome*/
+			-moz-user-select:none; /*火狐/Firefox*/
+			-ms-user-select:none;    /*IE 10+*/
+			user-select:none;
+        }
+		
+		#forSpare{
+			background: black;
+			position: fixed;
+			height:500px;
+			width:500px;
+			top: 50px;
+			left: 50px;
+		}
+		
