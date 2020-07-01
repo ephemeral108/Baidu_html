@@ -1,0 +1,23 @@
+{
+	"manifest_version":2,
+	"name":"baidu_Search",
+	"version":"0.0.1",
+	"description":"use baidu to search",
+	"icons":
+	{
+	"16":"icon.png",
+	"48":"icon.png",
+	"128":"icon.png"
+	},
+	"background":{
+		"scripts":["background.js","jquery.js"]
+	},
+	
+	
+	"permissions":["contextMenus","tabs", "http://*/*","https://*/*"]
+	
+
+
+
+
+}
