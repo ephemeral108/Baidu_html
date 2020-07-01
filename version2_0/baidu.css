@@ -1,0 +1,105 @@
+		*{	
+			margin:0px;
+			padding:0px;
+			border:0px;
+			white-space:nowrap;
+		}
+		
+		.background{
+			background-color:white;
+			width:100%;
+		}
+		
+		#file{
+			display:none;
+		}
+		
+		.inputFrame{
+			border:1px solid #2196f3;
+			overflow:hidden;
+			padding: 0px 0px 0px 6px;
+			width:72%;
+			font-size:25px;
+			height:40px;
+			float:left;
+		}
+		
+		#center{
+			text-align:center;
+		}
+		
+		#submitButton{
+			min-width:fit-content;
+			width:25%;
+			height:42px;
+			font-size:18px;
+			border: 1px solid #2196f3;
+			color:white;
+			background-color:#3388FF;
+		}
+		
+		#icon{
+			margin:20px 0px 20px 0px;
+		}
+		
+		html{
+			height:100%;
+		}
+		.content{
+			height:42px;
+			margin: 0 auto;
+			width: 90%;
+		}
+		.wrapper{
+			position: relative;
+			top: 10%;
+		}
+		
+		#wrapbg{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+		}
+		body>img{
+			width:100%;
+			height:100%;
+			position:absolute;
+		}
+		
+		ul{
+			width: 72%;
+			overflow: hidden;
+			padding-right: 6px;
+			background: aliceblue;
+			background:#CCFFFF;
+			opacity:0.8;
+			
+		}
+		
+		li:hover{
+			background:#c5c5cf;
+		}
+		
+		
+		li{
+			font-size:20px;
+		}
+		
+		.body{
+			background-size:cover;
+			height: 100%;
+			-webkit-user-select:none;/*谷歌 /Chrome*/
+			-moz-user-select:none; /*火狐/Firefox*/
+			-ms-user-select:none;    /*IE 10+*/
+			user-select:none;
+        }
+		
+		#forSpare{
+			background: black;
+			position: fixed;
+			height:500px;
+			width:500px;
+			top: 50px;
+			left: 50px;
+		}
+		
