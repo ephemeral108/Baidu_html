@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+		<link rel="icon" href="bearicon.png" >
+        <title>百度一下，你就知道</title>
+		<script type="text/javascript" src="baidu.js"></script>
+		<link rel="stylesheet" type="text/css" href="baidu.css" />
+    </head>
+	<body class="body" id="body" onclick="removeUL()">
+		<img id="wrapbg" alt="">
+		<div class="wrapper">
+			<div id="center">
+				<img alt="百度首页" id="icon" style="width:200px;height:auto;margin:20px 0px 20px 0px;" onclick="changeBG()">
+			</div>
+			<div class="content">
+				<input type="text" class="inputFrame" class="font" autocomplete="off" id="input" autofocus="autofocus" 
+				οnfοcus="focus()" onblur="blur()" onclick="releaseUL()"/>
+				<button id="submitButton" class="font" onclick="relocate()">百度一下</button>	
+				<ul id="ul"></ul>
+			</div>
+		</div>
+ 	</body>	
+</html>
